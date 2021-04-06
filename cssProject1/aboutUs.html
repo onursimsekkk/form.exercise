@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page | Safari Special Editions</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato:ital,wght@0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: cornsilk;
+            font-family: 'Lato', sans-serif;
+        }
+
+        /* ******************* HEADER START ******************* */
+
+        #header {
+            font-size: 1.5em;
+            color: rgb(201, 114, 0);
+            background-color: beige;
+            text-align: center;
+            font-family: 'Caveat', cursive;
+            height: 80px;
+            border-bottom: 2px solid darkslategrey;
+        }
+
+        h1 {
+            padding: 10px 0;
+        }
+
+        /* ******************** NAVBAR START ***************** */
+
+        #flex-nav-container {
+            display: flex;
+            border-bottom: 2px solid darkslategrey;
+            justify-content: center;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+        }
+        .nav-box {
+            width: 200px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            text-decoration: none;
+            color:rgb(5, 66, 5);
+        }
+
+            /* ************ CONTENT START ************ */
+        article {
+            display: flex;
+            justify-content: center;
+        }
+
+        #content {
+            width: 80%;
+            height: 700px;
+            background-color: #5BC1AC;
+            color: white;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-radius:5px;
+        }
+
+        .content-box {
+            width: 700px;
+            height: 310px;
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .round-img {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            border: 3px solid beige;
+            border-radius: 50%;
+        }
+
+        h2 {
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+
+        /* ************** FOOTER START ***********  */
+
+        footer {
+            background-color: white;
+        }
+
+        #footer-boxes {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top: 2px solid darkslategray;
+        }
+
+        .footer-box {
+            margin: 10px 0;
+        }
+
+        #logo {
+            border: none;
+            width: 100px;
+        }
+
+    </style>
+</head>
+    <body>
+        <!-- HEADER Start -->
+        <div id="header">
+            <h1>Lamy Safari Special Editions</h1>
+        </div>
+        <!-- HEADER END -->
+
+        <!-- NAVBAR Start -->
+        <div id="flex-nav-container">
+            <a href="index.html"><h3 class="nav-box">Main Page</h3></a>
+            <a href="aboutUs.html"><h3 class="nav-box">About Us</h3></a>
+            <a href="#contact"><h3 class="nav-box">Contact</h3></a>
+        </div>
+        <!-- NAVBAR END -->
+
+        <!-- CONTENT Start -->
+        <article>
+            <div id="content">
+                <div class="content-box">
+                    <div>
+                        <h2>About Us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, repellat quibusdam! Ab odit quas itaque cumque, quae quidem? Unde corrupti fuga repellendus, commodi quidem esse sequi enim quo, maxime rerum facilis nisi nihil exercitationem odit nam? Vitae aut veritatis vel, optio repellendus voluptates excepturi laudantium quam laboriosam cupiditate beatae ullam.</p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="round-img"><img src="https://picsum.photos/id/76/300/300" alt="About Us"></div>
+                    <div class="round-img"><img src="https://picsum.photos/id/85/300/300" alt="About Us"></div>
+                </div>
+            </div>
+        </article>
+        <!-- CONTENT END -->
+
+        <!-- FOOTER Start -->
+        <footer>
+            <div id="footer-boxes">
+                <div class="footer-box" id="contact"><b>Contact:</b> Qwerty Qwe. <br>Lorem, ipsum. <br>Lorem, ipsum dolor. <br>tel: 0123456789</div>
+                <div class="footer-box"><img src="images/logo.jpg" alt="logo" id="logo"></div>
+                <div class="footer-box">Images: Lorem Picsum</div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->   
+    </body>
+</html>
